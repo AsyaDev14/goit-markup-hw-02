@@ -1,0 +1,25 @@
+:root{
+  --iris:#4D5AE5;
+  --ocean: #404BBF;
+  --navy: #2E2F42;
+  --main-color: #FFF;
+}
+
+body {
+  font-family: 'Roboto';
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto';
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
