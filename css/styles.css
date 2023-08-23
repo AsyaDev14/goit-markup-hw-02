@@ -81,6 +81,8 @@ a {
 .header-link {
   cursor: pointer;
   color: #2E2F42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -91,12 +93,6 @@ a {
 .header-adress {
   font-style: normal;
 }
-
-/* .adress-list {}
-
-.list {}
-
-.adress-item {} */
 
 .adress-link {
   font-size: 16px;
@@ -140,15 +136,6 @@ a {
 }
 
 /* section [2] */
-/* .features {}
-
-.is-hidden {}
-
-.features-list {}
-
-.list {}
-
-.fetures-item {} */
 
 .features-title {
   font-weight: 500;
@@ -164,8 +151,8 @@ a {
   color: #434455;
 }
 
-/* section 3 */
-/* .services-section {} */
+/* section [3] */
+
 
 .servise-title {
   font-size: 36px;
@@ -175,14 +162,9 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
 }
-/* 
-.servise-list {}
 
-.list {}
 
-.servise-item {} */
-
-/* team-section 4 */
+/* team-section [4] */
 .team-section {
   background-color: #F4F4FD;
 
@@ -217,12 +199,73 @@ a {
 }
 
 /* footer */
-/* .footer {}
+.footer {
+  background-color:#2e2f42;
+}
 
-.footer-link {}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 
-.link {}
+.footer_logo_span{
+  color: #f4f4fd;
+}
 
-.footer-license {} */
+.footer-license {
+  line-height: 1.5;
+  color: #F4F4FD;
+  letter-spacing: 0.02em
+} 
 
 /* Portfolio */
+
+/* .is-hidden {}
+
+.buttons-list {}
+
+.buttons-item {} */
+
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #F4F4FD;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;
+  
+}
+
+/* .portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {} */
+
+.section-descrip {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-apps {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
